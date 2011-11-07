@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=eYaSDP
+Comment=Enhanced yaSDP(alternative ShutDown plasmoid)
+Icon=system-shutdown
+Type=Service
+ServiceTypes=Plasma/Applet
+ 
+X-KDE-Library=plasma_applet_eyasdp
+X-KDE-PluginInfo-Author=Carlos López Sánchez
+X-KDE-PluginInfo-Email=<musikolo{AT}hotmail[DOT]com> 
+X-KDE-PluginInfo-Name=eyasdp
+X-KDE-PluginInfo-Version=0.5.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL3
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-PlasmoidCategory=System Information
