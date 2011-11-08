@@ -261,9 +261,10 @@ void PlasmaEYasdp::setIconLayout(Plasma::IconWidget* iconWidget) {
 	currentRow++;	
 }
 
-void PlasmaEYasdp::createConfigurationInterface(KConfigDialog *parent) {
+void PlasmaEYasdp::createConfigurationInterface(KConfigDialog* parent) {
 
     //Appearance
+    parent->resize( 625, parent->height() );
     QWidget*const widgetAppear = new QWidget;
     uiAppear.setupUi(widgetAppear);
   

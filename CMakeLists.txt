@@ -1,5 +1,5 @@
 # Project Needs a name ofcourse
-project(plasma-eyasdp)
+project(eYaSDP)
  
 #set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_BUILD_TYPE Release)
@@ -15,6 +15,8 @@ include_directories(
    ${KDE4_INCLUDES}
    )
  
+add_subdirectory(translations)
+
 # We add our source code here
 set(eyasdp_SRCS plasma-eyasdp.cpp)
 
