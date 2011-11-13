@@ -1,7 +1,15 @@
 ----------------------
+2011-11-14 - v.0.7.0
+----------------------
+- Adapt the layout depending on the panel orientation (thanks to Downdiagonal for his patch!)
+- Added French translation (thanks to Bribanick Dominique)
+- Notify the user if an action cannot be carried out
+- Removed some compilation warnings
+
+----------------------
 2011-11-08 - v.0.6.0
 ----------------------
-- Added internationalization (i18n) support
+- Added multilingual support (i18n)
 
 ----------------------
 2011-11-05 - v.0.5.0
