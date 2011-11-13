@@ -68,9 +68,17 @@ void PlasmaEYasdp::paintInterface(QPainter *p, const QStyleOptionGraphicsItem *o
 	Q_UNUSED( p );
 	Q_UNUSED( option );
 	
-	// Since all buttons are squared, we'll scale them according to the height of the panel
-	const int itemHeight = contentsRect.height() / layout->rowCount();
-	setPreferredWidth( itemHeight * layout->columnCount() );
+	// Adapt the layout depending on the panel orientiation
+	if (formFactor() != Plasma::Vertical){
+		// When horizontal, we'll scale them according to the height of the panel
+		const int itemHeight = contentsRect.height() / layout->rowCount();
+		setPreferredWidth( itemHeight * layout->columnCount() );
+	}
+	else {
+		// When vertical, we'll scale them according to the width of the panel
+		const int itemWidth = contentsRect.width() / layout->columnCount();
+		setMaximumHeight( itemWidth * layout->rowCount() );
+	}
 }
 
 void PlasmaEYasdp::freeIconsAndMenuActions() {
@@ -257,7 +265,14 @@ void PlasmaEYasdp::setupIcons() {
 void PlasmaEYasdp::setIconLayout(Plasma::IconWidget* iconWidget) {
 	const int col = currentRow / numRowsLayout;
 	const int row = currentRow - col * numRowsLayout;
-	layout->addItem( iconWidget, row, col, Qt::AlignLeft );
+
+	// Adapt the layout depending on the panel orientiation (thanks to downdiagonal for this patch!)
+	if (formFactor() != Plasma::Vertical){
+		layout->addItem( iconWidget, row, col, Qt::AlignLeft );
+	}
+	else{
+		layout->addItem( iconWidget, col, row, Qt::AlignLeft );
+	}
 	currentRow++;	
 }
 
@@ -392,7 +407,10 @@ void PlasmaEYasdp::onLogout() {
 }
 
 void PlasmaEYasdp::onSwitchUser() {   
-	system("qdbus --session org.kde.screensaver /App org.kde.krunner.App.switchUser");
+	const int result = system("qdbus --session org.kde.screensaver /App org.kde.krunner.App.switchUser");
+	if( result != 0 ) {
+		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
+	}
 }
 
 void PlasmaEYasdp::onSuspend() {
@@ -405,7 +423,10 @@ void PlasmaEYasdp::onSuspend() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend");
+	const int result = system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend");
+	if( result != 0 ) {
+	KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
+	}
 }
 
 void PlasmaEYasdp::onHibernate() {  
@@ -418,15 +439,24 @@ void PlasmaEYasdp::onHibernate() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Hibernate");
+	const int result = system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Hibernate");
+	if( result != 0 ) {
+		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
+	}
 }  
 
 void PlasmaEYasdp::onTurnOffScreen() {   
-	system("xset dpms force off");
+	const int result = system("xset dpms force off");
+	if( result != 0 ) {
+		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
+	}
 }
 
 void PlasmaEYasdp::onLockScreen() {  
-   system("qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock");
+   const int result = system("qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock");
+	if( result != 0 ) {
+		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
+	}
 }  
 
 void PlasmaEYasdp::onBackgroundChanged(const int& background) {
