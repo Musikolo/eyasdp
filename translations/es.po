@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 20:39+0100\n"
-"PO-Revision-Date: 2011-11-08 22:12+0100\n"
+"POT-Creation-Date: 2011-11-26 00:28+0100\n"
+"PO-Revision-Date: 2011-11-26 00:28+0100\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -17,183 +17,234 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. i18n: file: ui/AppearanceConfig.ui:78
+#. i18n: file: ui/AppearanceConfig.ui:93
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
-#: build/ui_AppearanceConfig.h:248 translations/rc.cpp:6 rc.cpp:6
+#: build/ui_AppearanceConfig.h:280 translations/rc.cpp:6 rc.cpp:6
 msgid "Shut-down"
 msgstr "Apagar"
 
-#. i18n: file: ui/AppearanceConfig.ui:85
+#. i18n: file: ui/AppearanceConfig.ui:100
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
-#: build/ui_AppearanceConfig.h:249 translations/rc.cpp:9 rc.cpp:9
+#: build/ui_AppearanceConfig.h:281 translations/rc.cpp:9 rc.cpp:9
 msgid "Reboot"
 msgstr "Reiniciar"
 
-#. i18n: file: ui/AppearanceConfig.ui:140
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
-#: build/ui_AppearanceConfig.h:250 translations/rc.cpp:12 rc.cpp:12
-msgid "Hibernate"
-msgstr "Hibernar"
-
-#. i18n: file: ui/AppearanceConfig.ui:163
+#. i18n: file: ui/AppearanceConfig.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
-#: build/ui_AppearanceConfig.h:251 translations/rc.cpp:15 rc.cpp:15
+#: build/ui_AppearanceConfig.h:282 translations/rc.cpp:12 rc.cpp:12
 msgid "Log-Out"
 msgstr "Cerrar sesión"
 
-#. i18n: file: ui/AppearanceConfig.ui:186
+#. i18n: file: ui/AppearanceConfig.ui:178
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
-#: build/ui_AppearanceConfig.h:252 translations/rc.cpp:18 rc.cpp:18
+#: build/ui_AppearanceConfig.h:283 translations/rc.cpp:15 rc.cpp:15
 msgid "Lock screen"
 msgstr "Bloquear pantalla"
 
-#. i18n: file: ui/AppearanceConfig.ui:209
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
-#: build/ui_AppearanceConfig.h:253 translations/rc.cpp:21 rc.cpp:21
-msgid "Suspend"
-msgstr "Suspender"
+#. i18n: file: ui/AppearanceConfig.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
+#: build/ui_AppearanceConfig.h:284 translations/rc.cpp:18 rc.cpp:18
+msgid "Hibernate"
+msgstr "Hibernar"
 
-#. i18n: file: ui/AppearanceConfig.ui:232
+#. i18n: file: ui/AppearanceConfig.ui:198
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
-#: build/ui_AppearanceConfig.h:254 translations/rc.cpp:24 rc.cpp:24
+#: build/ui_AppearanceConfig.h:285 translations/rc.cpp:21 rc.cpp:21
 msgid "Switch user"
 msgstr "Cambiar de usuario"
 
-#. i18n: file: ui/AppearanceConfig.ui:255
+#. i18n: file: ui/AppearanceConfig.ui:237
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
+#: build/ui_AppearanceConfig.h:286 translations/rc.cpp:24 rc.cpp:24
+msgid "Suspend"
+msgstr "Suspender"
+
+#. i18n: file: ui/AppearanceConfig.ui:266
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
-#: build/ui_AppearanceConfig.h:255 translations/rc.cpp:27 rc.cpp:27
+#: build/ui_AppearanceConfig.h:287 translations/rc.cpp:27 rc.cpp:27
 msgid "Turn-off screen"
 msgstr "Apagar pantalla"
 
-#. i18n: file: ui/AppearanceConfig.ui:45
+#. i18n: file: ui/AppearanceConfig.ui:57
 #. i18n: ectx: attribute (title), widget (QWidget, tabPage1)
-#: build/ui_AppearanceConfig.h:256 translations/rc.cpp:3 rc.cpp:3
+#: build/ui_AppearanceConfig.h:288 translations/rc.cpp:3 rc.cpp:3
 msgid "Icons"
 msgstr "Iconos"
 
-#. i18n: file: ui/AppearanceConfig.ui:283
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
-#: build/ui_AppearanceConfig.h:259 translations/rc.cpp:33 rc.cpp:33
-msgid "Default"
-msgstr "Predeterminado"
-
-#. i18n: file: ui/AppearanceConfig.ui:288
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
-#: build/ui_AppearanceConfig.h:260 translations/rc.cpp:36 rc.cpp:36
-msgid "Standard"
-msgstr "Estándar"
-
-#. i18n: file: ui/AppearanceConfig.ui:293
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
-#: build/ui_AppearanceConfig.h:261 translations/rc.cpp:39 rc.cpp:39
-msgid "Translucent"
-msgstr "Translúcido"
-
-#. i18n: file: ui/AppearanceConfig.ui:298
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
-#: build/ui_AppearanceConfig.h:262 translations/rc.cpp:42 rc.cpp:42
-msgid "None"
-msgstr "Ninguno"
-
-#. i18n: file: ui/AppearanceConfig.ui:312
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: build/ui_AppearanceConfig.h:264 translations/rc.cpp:45 rc.cpp:45
-msgid "Background"
-msgstr "Fondo"
-
-#. i18n: file: ui/AppearanceConfig.ui:328
+#. i18n: file: ui/AppearanceConfig.ui:306
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxAskConfirmation)
-#: build/ui_AppearanceConfig.h:268 translations/rc.cpp:48 rc.cpp:48
+#: build/ui_AppearanceConfig.h:292 translations/rc.cpp:33 rc.cpp:33
 msgid "Ask for confirmation"
 msgstr "Solicitar confirmación"
 
-#. i18n: file: ui/AppearanceConfig.ui:347
+#. i18n: file: ui/AppearanceConfig.ui:325
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxLockBeforeSuspend)
-#: build/ui_AppearanceConfig.h:272 translations/rc.cpp:51 rc.cpp:51
+#: build/ui_AppearanceConfig.h:296 translations/rc.cpp:36 rc.cpp:36
 msgid "Lock screen for Hibernate and Suspend"
 msgstr "Bloquear la pantalla al Hibernar y Suspender"
 
-#. i18n: file: ui/AppearanceConfig.ui:363
+#. i18n: file: ui/AppearanceConfig.ui:341
 #. i18n: ectx: property (text), widget (QRadioButton, radioOneRow)
-#: build/ui_AppearanceConfig.h:273 translations/rc.cpp:54 rc.cpp:54
+#: build/ui_AppearanceConfig.h:297 translations/rc.cpp:39 rc.cpp:39
 msgid "1 row"
 msgstr "1 fila"
 
-#. i18n: file: ui/AppearanceConfig.ui:379
+#. i18n: file: ui/AppearanceConfig.ui:357
 #. i18n: ectx: property (text), widget (QRadioButton, radioTwoRows)
-#: build/ui_AppearanceConfig.h:274 translations/rc.cpp:57 rc.cpp:57
+#: build/ui_AppearanceConfig.h:298 translations/rc.cpp:42 rc.cpp:42
 msgid "2 rows"
 msgstr "2 filas"
 
-#. i18n: file: ui/AppearanceConfig.ui:392
+#. i18n: file: ui/AppearanceConfig.ui:370
 #. i18n: ectx: property (text), widget (QRadioButton, radioThreeRows)
-#: build/ui_AppearanceConfig.h:275 translations/rc.cpp:60 rc.cpp:60
+#: build/ui_AppearanceConfig.h:299 translations/rc.cpp:45 rc.cpp:45
 msgid "3 rows"
 msgstr "3 filas"
 
-#. i18n: file: ui/AppearanceConfig.ui:405
+#. i18n: file: ui/AppearanceConfig.ui:383
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: build/ui_AppearanceConfig.h:276 translations/rc.cpp:63 rc.cpp:63
+#: build/ui_AppearanceConfig.h:300 translations/rc.cpp:48 rc.cpp:48
 msgid "Number of rows:"
 msgstr "Número de filas:"
 
-#. i18n: file: ui/AppearanceConfig.ui:264
+#. i18n: file: ui/AppearanceConfig.ui:405
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_AppearanceConfig.h:301 translations/rc.cpp:51 rc.cpp:51
+msgid "Background"
+msgstr "Fondo"
+
+#. i18n: file: ui/AppearanceConfig.ui:419
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:304 translations/rc.cpp:54 rc.cpp:54
+msgid "Default"
+msgstr "Predeterminado"
+
+#. i18n: file: ui/AppearanceConfig.ui:424
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:305 translations/rc.cpp:57 rc.cpp:57
+msgid "Standard"
+msgstr "Estándar"
+
+#. i18n: file: ui/AppearanceConfig.ui:429
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:306 translations/rc.cpp:60 rc.cpp:60
+msgid "Translucent"
+msgstr "Translúcido"
+
+#. i18n: file: ui/AppearanceConfig.ui:434
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:307 translations/rc.cpp:63 rc.cpp:63
+msgid "None"
+msgstr "Ninguno"
+
+#. i18n: file: ui/AppearanceConfig.ui:291
 #. i18n: ectx: attribute (title), widget (QWidget, tabPage2)
-#: build/ui_AppearanceConfig.h:277 translations/rc.cpp:30 rc.cpp:30
+#: build/ui_AppearanceConfig.h:309 translations/rc.cpp:30 rc.cpp:30
 msgid "Misc"
 msgstr "Misc"
 
-#: plasma-eyasdp.cpp:166
+#: plasma-eyasdp.cpp:177
 msgid "&Shutdown"
 msgstr "&Apagar"
 
-#: plasma-eyasdp.cpp:178
+#: plasma-eyasdp.cpp:189
 msgid "&Reboot"
 msgstr "&Reiniciar"
 
-#: plasma-eyasdp.cpp:190
+#: plasma-eyasdp.cpp:201
 msgid "&Suspend"
 msgstr "&Suspender"
 
-#: plasma-eyasdp.cpp:202
+#: plasma-eyasdp.cpp:213
 msgid "&Logout"
 msgstr "&Cerrar sesión"
 
-#: plasma-eyasdp.cpp:215
+#: plasma-eyasdp.cpp:226
 msgid "&Hibernate"
 msgstr "&Hibernar"
 
-#: plasma-eyasdp.cpp:227
+#: plasma-eyasdp.cpp:238
 msgid "&Turn off screen"
 msgstr "Apagar la &pantalla"
 
-#: plasma-eyasdp.cpp:239
+#: plasma-eyasdp.cpp:250
 msgid "&Lock screen"
 msgstr "&Bloquear la pantalla"
 
-#: plasma-eyasdp.cpp:251
+#: plasma-eyasdp.cpp:262
 msgid "&Switch user"
 msgstr "&Cambiar de usuario"
 
-#: plasma-eyasdp.cpp:311
+#: plasma-eyasdp.cpp:330
 msgid "Appearance"
 msgstr "Apariencia"
 
-#: plasma-eyasdp.cpp:399
+#: plasma-eyasdp.cpp:415 plasma-eyasdp.cpp:431 plasma-eyasdp.cpp:447
+#: plasma-eyasdp.cpp:454 plasma-eyasdp.cpp:461
+msgid "The operation has failed!"
+msgstr "¡La operación ha fallado!"
+
+#: plasma-eyasdp.cpp:421
 msgid "Do you want to sleep (suspend to RAM) the system now?"
 msgstr "¿Desea suspender en RAM el equipo ahora?"
 
-#: plasma-eyasdp.cpp:400
+#: plasma-eyasdp.cpp:422
 msgid "Suspend confirmation"
 msgstr "Confirmación de suspensión"
 
-#: plasma-eyasdp.cpp:412
+#: plasma-eyasdp.cpp:437
 msgid "Do you want to hibernate (suspend to disk) the system now?"
 msgstr "¿Desea hibernar el equipo en disco ahora?"
 
-#: plasma-eyasdp.cpp:413
+#: plasma-eyasdp.cpp:438
 msgid "Hibernate confirmation"
 msgstr "Confirmación de hibernación"
+
+#: plasma-eyasdp.cpp:570
+msgid ""
+"eYaSDP is a plasmoid that allows to set a number of system buttons in your "
+"panel or desktop for comfortable and quick access"
+msgstr ""
+"eYaSDP es un plasmoide que permite configurar una serie de botones de "
+"sistema en un panel o en el escritorio para mayor comodidad y rápido acceso."
+
+#: plasma-eyasdp.cpp:572
+msgid "Copyright (c) 2011 - Carlos López Sánchez"
+msgstr "Todos los derechos reservados (c) 2011 - Carlos López Sánchez"
+
+#: plasma-eyasdp.cpp:574
+msgid "Main developer"
+msgstr "Desarrollador principal"
+
+#: plasma-eyasdp.cpp:576
+msgid "Ophys"
+msgstr "Ophys"
+
+#: plasma-eyasdp.cpp:576
+msgid "Original developer"
+msgstr "Desarrollador original"
+
+#: plasma-eyasdp.cpp:578
+msgid "Nils Görs"
+msgstr "Nils Görs"
+
+#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580
+msgid "Translator"
+msgstr "Traductor"
+
+#: plasma-eyasdp.cpp:580
+msgid "Bribanick Dominique"
+msgstr "Bribanick Dominique"
+
+#: plasma-eyasdp.cpp:581
+msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
+msgstr ""
+"eYaSDP significa yaSDP mejorado, en inglés, Enhanced yaSDP (Yet Another Shut "
+"Down Plasmoid) "
+
+#: plasma-eyasdp.cpp:583
+msgid "Help"
+msgstr "Ayuda"
 
 #: translations/rc.cpp:64 rc.cpp:64
 msgctxt "NAME OF TRANSLATORS"
@@ -209,5 +260,4 @@ msgstr "musikolo[AT]hotmail{DOT}com"
 msgctxt "HOMEPAGE OF TRANSLATORS"
 msgid "Your homepage"
 msgstr "http://kde-apps.org/content/show.php?content=146530"
-
 

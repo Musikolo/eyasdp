@@ -1,258 +1,267 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# nils, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-26 00:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-11-26 00:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: German <kde-i18n-doc@kde.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: file: ui/AppearanceConfig.ui:93
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: build/ui_AppearanceConfig.h:280 translations/rc.cpp:6 rc.cpp:6
 msgid "Shut-down"
-msgstr ""
+msgstr "Herunterfahren"
 
 #. i18n: file: ui/AppearanceConfig.ui:100
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
 #: build/ui_AppearanceConfig.h:281 translations/rc.cpp:9 rc.cpp:9
 msgid "Reboot"
-msgstr ""
+msgstr "Neustart"
 
 #. i18n: file: ui/AppearanceConfig.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
 #: build/ui_AppearanceConfig.h:282 translations/rc.cpp:12 rc.cpp:12
 msgid "Log-Out"
-msgstr ""
+msgstr "Abmelden"
 
 #. i18n: file: ui/AppearanceConfig.ui:178
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
 #: build/ui_AppearanceConfig.h:283 translations/rc.cpp:15 rc.cpp:15
 msgid "Lock screen"
-msgstr ""
+msgstr "Sperren"
 
 #. i18n: file: ui/AppearanceConfig.ui:185
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
 #: build/ui_AppearanceConfig.h:284 translations/rc.cpp:18 rc.cpp:18
 msgid "Hibernate"
-msgstr ""
+msgstr "Tiefschlaf"
 
 #. i18n: file: ui/AppearanceConfig.ui:198
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
 #: build/ui_AppearanceConfig.h:285 translations/rc.cpp:21 rc.cpp:21
 msgid "Switch user"
 msgstr ""
+"Benutzer\n"
+"wechseln"
 
 #. i18n: file: ui/AppearanceConfig.ui:237
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
 #: build/ui_AppearanceConfig.h:286 translations/rc.cpp:24 rc.cpp:24
 msgid "Suspend"
-msgstr ""
+msgstr "Ruhezustand"
 
 #. i18n: file: ui/AppearanceConfig.ui:266
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
 #: build/ui_AppearanceConfig.h:287 translations/rc.cpp:27 rc.cpp:27
 msgid "Turn-off screen"
 msgstr ""
+"Bildschirm\n"
+"ausschalten"
 
 #. i18n: file: ui/AppearanceConfig.ui:57
 #. i18n: ectx: attribute (title), widget (QWidget, tabPage1)
 #: build/ui_AppearanceConfig.h:288 translations/rc.cpp:3 rc.cpp:3
 msgid "Icons"
-msgstr ""
+msgstr "Ikons"
 
 #. i18n: file: ui/AppearanceConfig.ui:306
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxAskConfirmation)
 #: build/ui_AppearanceConfig.h:292 translations/rc.cpp:33 rc.cpp:33
 msgid "Ask for confirmation"
-msgstr ""
+msgstr "Nach Bestätigung fragen"
 
 #. i18n: file: ui/AppearanceConfig.ui:325
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxLockBeforeSuspend)
 #: build/ui_AppearanceConfig.h:296 translations/rc.cpp:36 rc.cpp:36
 msgid "Lock screen for Hibernate and Suspend"
-msgstr ""
+msgstr "Bildschirm sperren für Tiefschlaf und Ruhezustand"
 
 #. i18n: file: ui/AppearanceConfig.ui:341
 #. i18n: ectx: property (text), widget (QRadioButton, radioOneRow)
 #: build/ui_AppearanceConfig.h:297 translations/rc.cpp:39 rc.cpp:39
 msgid "1 row"
-msgstr ""
+msgstr "Einzeilig"
 
 #. i18n: file: ui/AppearanceConfig.ui:357
 #. i18n: ectx: property (text), widget (QRadioButton, radioTwoRows)
 #: build/ui_AppearanceConfig.h:298 translations/rc.cpp:42 rc.cpp:42
 msgid "2 rows"
-msgstr ""
+msgstr "Zweizeilig"
 
 #. i18n: file: ui/AppearanceConfig.ui:370
 #. i18n: ectx: property (text), widget (QRadioButton, radioThreeRows)
 #: build/ui_AppearanceConfig.h:299 translations/rc.cpp:45 rc.cpp:45
 msgid "3 rows"
-msgstr ""
+msgstr "Dreizeilig"
 
 #. i18n: file: ui/AppearanceConfig.ui:383
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: build/ui_AppearanceConfig.h:300 translations/rc.cpp:48 rc.cpp:48
 msgid "Number of rows:"
-msgstr ""
+msgstr "Anzahl an Zeilen:"
 
 #. i18n: file: ui/AppearanceConfig.ui:405
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: build/ui_AppearanceConfig.h:301 translations/rc.cpp:51 rc.cpp:51
 msgid "Background"
-msgstr ""
+msgstr "Hintergrund"
 
 #. i18n: file: ui/AppearanceConfig.ui:419
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
 #: build/ui_AppearanceConfig.h:304 translations/rc.cpp:54 rc.cpp:54
 msgid "Default"
-msgstr ""
+msgstr "Vorgabewert"
 
 #. i18n: file: ui/AppearanceConfig.ui:424
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
 #: build/ui_AppearanceConfig.h:305 translations/rc.cpp:57 rc.cpp:57
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
 #. i18n: file: ui/AppearanceConfig.ui:429
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
 #: build/ui_AppearanceConfig.h:306 translations/rc.cpp:60 rc.cpp:60
 msgid "Translucent"
-msgstr ""
+msgstr "Transparenz"
 
 #. i18n: file: ui/AppearanceConfig.ui:434
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
 #: build/ui_AppearanceConfig.h:307 translations/rc.cpp:63 rc.cpp:63
 msgid "None"
-msgstr ""
+msgstr "Keine"
 
 #. i18n: file: ui/AppearanceConfig.ui:291
 #. i18n: ectx: attribute (title), widget (QWidget, tabPage2)
 #: build/ui_AppearanceConfig.h:309 translations/rc.cpp:30 rc.cpp:30
 msgid "Misc"
-msgstr ""
+msgstr "Sonstiges"
 
 #: plasma-eyasdp.cpp:177
 msgid "&Shutdown"
-msgstr ""
+msgstr "&Herunterfahren"
 
 #: plasma-eyasdp.cpp:189
 msgid "&Reboot"
-msgstr ""
+msgstr "&Neustart"
 
 #: plasma-eyasdp.cpp:201
 msgid "&Suspend"
-msgstr ""
+msgstr "&Ruhezustand"
 
 #: plasma-eyasdp.cpp:213
 msgid "&Logout"
-msgstr ""
+msgstr "&Abmelden"
 
 #: plasma-eyasdp.cpp:226
 msgid "&Hibernate"
-msgstr ""
+msgstr "&Tiefschlaf"
 
 #: plasma-eyasdp.cpp:238
 msgid "&Turn off screen"
-msgstr ""
+msgstr "&Bildschirm ausschalten"
 
 #: plasma-eyasdp.cpp:250
 msgid "&Lock screen"
-msgstr ""
+msgstr "&Sperren"
 
 #: plasma-eyasdp.cpp:262
 msgid "&Switch user"
-msgstr ""
+msgstr "&Benutzer wechseln"
 
 #: plasma-eyasdp.cpp:330
 msgid "Appearance"
-msgstr ""
+msgstr "Erscheinungsbild"
 
 #: plasma-eyasdp.cpp:415 plasma-eyasdp.cpp:431 plasma-eyasdp.cpp:447
 #: plasma-eyasdp.cpp:454 plasma-eyasdp.cpp:461
 msgid "The operation has failed!"
-msgstr ""
+msgstr "Die Anwendung ist fehlgeschlagen!"
 
 #: plasma-eyasdp.cpp:421
 msgid "Do you want to sleep (suspend to RAM) the system now?"
-msgstr ""
+msgstr "Soll das System in den Ruhemodus versetzt werden (suspend to RAM)?"
 
 #: plasma-eyasdp.cpp:422
 msgid "Suspend confirmation"
-msgstr ""
+msgstr "Ruhezustand bestätigen"
 
 #: plasma-eyasdp.cpp:437
 msgid "Do you want to hibernate (suspend to disk) the system now?"
 msgstr ""
+"Soll das System in den Tiefschlafmodus versetzt werden (suspend to disk)?"
 
 #: plasma-eyasdp.cpp:438
 msgid "Hibernate confirmation"
-msgstr ""
+msgstr "Tiefschlaf bestätigen"
 
 #: plasma-eyasdp.cpp:570
 msgid ""
 "eYaSDP is a plasmoid that allows to set a number of system buttons in your "
 "panel or desktop for comfortable and quick access"
 msgstr ""
+"eYaSDP ist ein Plasmoid, dass mittels Buttons einen schnellen Zugriff auf "
+"eine Anzahl von Systemfunktionen ermöglicht. Diese Buttons können entweder "
+"im Panel oder auf dem Deskop plaziert werden."
 
 #: plasma-eyasdp.cpp:572
 msgid "Copyright (c) 2011 - Carlos López Sánchez"
-msgstr ""
+msgstr "Copyright (c) 2011 - Carlos López Sánchez"
 
 #: plasma-eyasdp.cpp:574
 msgid "Main developer"
-msgstr ""
+msgstr "Hauptentwickler"
 
 #: plasma-eyasdp.cpp:576
 msgid "Ophys"
-msgstr ""
+msgstr "Ophys"
 
 #: plasma-eyasdp.cpp:576
 msgid "Original developer"
-msgstr ""
+msgstr "Originalentwickler"
 
 #: plasma-eyasdp.cpp:578
 msgid "Nils Görs"
-msgstr ""
+msgstr "Nils Görs"
 
 #: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580
 msgid "Translator"
-msgstr ""
+msgstr "Übersetzer"
 
 #: plasma-eyasdp.cpp:580
 msgid "Bribanick Dominique"
-msgstr ""
+msgstr "Bribanick Dominique"
 
 #: plasma-eyasdp.cpp:581
 msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
-msgstr ""
+msgstr "eYaSDP steht für Erweiterter yaSDP(Yet Another Shut Down Plasmoid)"
 
 #: plasma-eyasdp.cpp:583
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: translations/rc.cpp:64 rc.cpp:64
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your name"
-msgstr ""
+msgstr "Nils Görs"
 
 #: translations/rc.cpp:65 rc.cpp:65
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your email"
-msgstr ""
+msgstr "weechatter[at]arcor[dot]de"
 
 #: translations/rc.cpp:66 rc.cpp:66
 msgctxt "HOMEPAGE OF TRANSLATORS"
 msgid "Your homepage"
-msgstr ""
+msgstr "Your homepage"
+
