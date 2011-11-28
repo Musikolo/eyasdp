@@ -1,4 +1,11 @@
 ----------------------
+2011-11-28 - v.0.8.0
+----------------------
+- Added new standard KDE Help entry in the contextual menu
+- Added German translation (thanks to Nils Görs)
+- Fixed some literals lack of space in the Settings dialog to show French translation
+
+----------------------
 2011-11-14 - v.0.7.0
 ----------------------
 - Adapt the layout depending on the panel orientation (thanks to Downdiagonal for his patch!)
