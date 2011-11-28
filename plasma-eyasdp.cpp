@@ -19,6 +19,7 @@
 #include <KConfigDialog>
 #include <KMessageBox>
 #include "plasma-eyasdp.h"
+#include <KHelpMenu>
 
 PlasmaEYasdp::PlasmaEYasdp(QObject *parent, const QVariantList &args) : Plasma::Applet(parent, args) {
 
@@ -43,6 +44,7 @@ PlasmaEYasdp::PlasmaEYasdp(QObject *parent, const QVariantList &args) : Plasma::
 	turnOffScreenIcon.menuAction = NULL;
 	lockScreenIcon.menuAction = NULL;
 	switchUserIcon.menuAction = NULL;
+	helpAction = NULL;
 }
  
 PlasmaEYasdp::~PlasmaEYasdp(){ 
@@ -61,6 +63,7 @@ void PlasmaEYasdp::init() {
 	readConfig();
 	setupLayuts();
 	setupIcons();
+	createAboutMenu();
 }
 
 
@@ -279,7 +282,7 @@ void PlasmaEYasdp::setIconLayout(Plasma::IconWidget* iconWidget) {
 void PlasmaEYasdp::createConfigurationInterface(KConfigDialog* parent) {
 
     //Appearance
-    parent->resize( 625, parent->height() );
+    parent->resize( 650, parent->height() );
     QWidget*const widgetAppear = new QWidget;
     uiAppear.setupUi(widgetAppear);
   
@@ -499,10 +502,11 @@ QList< QAction* > PlasmaEYasdp::contextualActions() {
 	}
 	if( lockScreenIcon.menuAction != NULL ) {
 		menuActions.append( lockScreenIcon.menuAction );
-	}	
+	}
 	if( switchUserIcon.menuAction != NULL ) {
 		menuActions.append( switchUserIcon.menuAction );
-	}	
+	}
+	menuActions.append( helpAction );
     return menuActions;
 }
 
@@ -560,5 +564,25 @@ void PlasmaEYasdp::saveConfig() {
 
 	emit configNeedsSaving();
 }
+
+void PlasmaEYasdp::createAboutMenu() {
+	KAboutData* about = new KAboutData( General::APP_UI_NAME, 0, ki18n( General::APP_UI_NAME ), General::APP_VERSION.toAscii(), 
+										ki18n( "eYaSDP is a plasmoid that allows to set a number of system buttons in your panel or desktop for comfortable and quick access" ), KAboutData::License_GPL_V3 );
+	about->setProgramIconName( "system-shutdown" );
+	about->setCopyrightStatement( ki18n( "Copyright (c) 2011 - Carlos López Sánchez" ) );
+	const QString esEmail( QString( General::APP_AUTHOR ).append( "<musikolo" ).append( "@" ).append( "hotmail" ).append( ".com>" ) );
+	about->addAuthor( ki18n( General::APP_AUTHOR ), ki18n( "Main developer" ), esEmail.toLatin1(), General::APP_HOMEPAGE );
+	const QString creditEmail( QString( "Ophys" ).append( "<ophys00" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
+	about->addCredit( ki18n( "Ophys" ), ki18n( "Original developer" ), creditEmail.toLatin1(), "http://kde-apps.org/content/show.php?content=126013" );
+	const QString deEmail( QString( "Nils Görs" ).append( "<weechatter" ).append( "@" ).append( "arcor" ).append( ".de>" ) );
+	about->addCredit( ki18n( "Nils Görs" ), ki18n( "Translator" ), deEmail.toLatin1() );
+	const QString frEmail( QString( "Bribanick Dominique" ).append( "<chepioq" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
+	about->addCredit( ki18n( "Bribanick Dominique" ), ki18n( "Translator" ), frEmail.toLatin1() );
+	about->setOtherText( ki18n( "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)" ) );
+	
+	helpAction = new QAction( KIcon( "help-about" ), i18n( "Help" ), this );
+	helpAction->setMenu( ( QMenu* ) (new KHelpMenu( NULL, about, false ) )->menu() );
+}
+
  
 #include "plasma-eyasdp.moc"
