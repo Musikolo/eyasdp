@@ -576,8 +576,12 @@ void PlasmaEYasdp::createAboutMenu() {
 	about->addCredit( ki18n( "Ophys" ), ki18n( "Original developer" ), creditEmail.toLatin1(), "http://kde-apps.org/content/show.php?content=126013" );
 	const QString deEmail( QString( "Nils Görs" ).append( "<weechatter" ).append( "@" ).append( "arcor" ).append( ".de>" ) );
 	about->addCredit( ki18n( "Nils Görs" ), ki18n( "Translator" ), deEmail.toLatin1() );
+	const QString elEmail( QString( "Dimitrios Glentadakis" ).append( "<dglent" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
+	about->addCredit( ki18n( "Dimitrios Glentadakis" ), ki18n( "Translator" ), elEmail.toLatin1(), "http://www.kde-gr.org/" );
 	const QString frEmail( QString( "Bribanick Dominique" ).append( "<chepioq" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
 	about->addCredit( ki18n( "Bribanick Dominique" ), ki18n( "Translator" ), frEmail.toLatin1() );
+	const QString itEmail( QString( "Davide Mora" ).append( "<davide.mora" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
+	about->addCredit( ki18n( "Davide Mora" ), ki18n( "Translator" ), itEmail.toLatin1(), "http://www.davidemora.it/" );
 	about->setOtherText( ki18n( "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)" ) );
 	
 	helpAction = new QAction( KIcon( "help-about" ), i18n( "Help" ), this );
