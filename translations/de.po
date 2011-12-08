@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-26 00:28+0100\n"
-"PO-Revision-Date: 2011-11-26 00:28+0100\n"
+"POT-Creation-Date: 2011-11-29 00:06+0100\n"
+"PO-Revision-Date: 2011-11-28 20:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -234,19 +234,28 @@ msgstr "Originalentwickler"
 msgid "Nils Görs"
 msgstr "Nils Görs"
 
-#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580
+#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580 plasma-eyasdp.cpp:582
+#: plasma-eyasdp.cpp:584
 msgid "Translator"
 msgstr "Übersetzer"
 
 #: plasma-eyasdp.cpp:580
+msgid "Dimitrios Glentadakis"
+msgstr "Dimitrios Glentadakis"
+
+#: plasma-eyasdp.cpp:582
 msgid "Bribanick Dominique"
 msgstr "Bribanick Dominique"
 
-#: plasma-eyasdp.cpp:581
+#: plasma-eyasdp.cpp:584
+msgid "Davide Mora"
+msgstr ""
+
+#: plasma-eyasdp.cpp:585
 msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
 msgstr "eYaSDP steht für Erweiterter yaSDP(Yet Another Shut Down Plasmoid)"
 
-#: plasma-eyasdp.cpp:583
+#: plasma-eyasdp.cpp:587
 msgid "Help"
 msgstr "Hilfe"
 
@@ -264,4 +273,3 @@ msgstr "weechatter[at]arcor[dot]de"
 msgctxt "HOMEPAGE OF TRANSLATORS"
 msgid "Your homepage"
 msgstr "Your homepage"
-

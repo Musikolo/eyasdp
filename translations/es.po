@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-26 00:28+0100\n"
-"PO-Revision-Date: 2011-11-26 00:28+0100\n"
+"POT-Creation-Date: 2011-11-29 00:06+0100\n"
+"PO-Revision-Date: 2011-11-29 00:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -228,21 +228,30 @@ msgstr "Desarrollador original"
 msgid "Nils Görs"
 msgstr "Nils Görs"
 
-#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580
+#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580 plasma-eyasdp.cpp:582
+#: plasma-eyasdp.cpp:584
 msgid "Translator"
 msgstr "Traductor"
 
 #: plasma-eyasdp.cpp:580
+msgid "Dimitrios Glentadakis"
+msgstr "Dimitrios Glentadakis"
+
+#: plasma-eyasdp.cpp:582
 msgid "Bribanick Dominique"
 msgstr "Bribanick Dominique"
 
-#: plasma-eyasdp.cpp:581
+#: plasma-eyasdp.cpp:584
+msgid "Davide Mora"
+msgstr "Davide Mora"
+
+#: plasma-eyasdp.cpp:585
 msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
 msgstr ""
 "eYaSDP significa yaSDP mejorado, en inglés, Enhanced yaSDP (Yet Another Shut "
 "Down Plasmoid) "
 
-#: plasma-eyasdp.cpp:583
+#: plasma-eyasdp.cpp:587
 msgid "Help"
 msgstr "Ayuda"
 
