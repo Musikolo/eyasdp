@@ -1,0 +1,272 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-29 00:06+0100\n"
+"PO-Revision-Date: 2011-11-29 00:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: file: ui/AppearanceConfig.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: build/ui_AppearanceConfig.h:280 translations/rc.cpp:6 rc.cpp:6
+msgid "Shut-down"
+msgstr "Τερματισμός"
+
+#. i18n: file: ui/AppearanceConfig.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
+#: build/ui_AppearanceConfig.h:281 translations/rc.cpp:9 rc.cpp:9
+msgid "Reboot"
+msgstr "Επανεκκίνηση"
+
+#. i18n: file: ui/AppearanceConfig.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
+#: build/ui_AppearanceConfig.h:282 translations/rc.cpp:12 rc.cpp:12
+msgid "Log-Out"
+msgstr "Αποσύνδεση"
+
+#. i18n: file: ui/AppearanceConfig.ui:178
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
+#: build/ui_AppearanceConfig.h:283 translations/rc.cpp:15 rc.cpp:15
+msgid "Lock screen"
+msgstr "Κλείδωμα οθόνης"
+
+#. i18n: file: ui/AppearanceConfig.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
+#: build/ui_AppearanceConfig.h:284 translations/rc.cpp:18 rc.cpp:18
+msgid "Hibernate"
+msgstr "Νάρκη"
+
+#. i18n: file: ui/AppearanceConfig.ui:198
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
+#: build/ui_AppearanceConfig.h:285 translations/rc.cpp:21 rc.cpp:21
+msgid "Switch user"
+msgstr "Εναλλαγή χρήστη"
+
+#. i18n: file: ui/AppearanceConfig.ui:237
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
+#: build/ui_AppearanceConfig.h:286 translations/rc.cpp:24 rc.cpp:24
+msgid "Suspend"
+msgstr "Αναστολή"
+
+#. i18n: file: ui/AppearanceConfig.ui:266
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
+#: build/ui_AppearanceConfig.h:287 translations/rc.cpp:27 rc.cpp:27
+msgid "Turn-off screen"
+msgstr "Κλείσιμο οθόνης"
+
+#. i18n: file: ui/AppearanceConfig.ui:57
+#. i18n: ectx: attribute (title), widget (QWidget, tabPage1)
+#: build/ui_AppearanceConfig.h:288 translations/rc.cpp:3 rc.cpp:3
+msgid "Icons"
+msgstr "Εικονίδια"
+
+#. i18n: file: ui/AppearanceConfig.ui:306
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAskConfirmation)
+#: build/ui_AppearanceConfig.h:292 translations/rc.cpp:33 rc.cpp:33
+msgid "Ask for confirmation"
+msgstr "Να ζητείται επιβεβαίωση"
+
+#. i18n: file: ui/AppearanceConfig.ui:325
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxLockBeforeSuspend)
+#: build/ui_AppearanceConfig.h:296 translations/rc.cpp:36 rc.cpp:36
+msgid "Lock screen for Hibernate and Suspend"
+msgstr "Κλείδωμα οθόνης για τη νάρκη και αναστολή"
+
+#. i18n: file: ui/AppearanceConfig.ui:341
+#. i18n: ectx: property (text), widget (QRadioButton, radioOneRow)
+#: build/ui_AppearanceConfig.h:297 translations/rc.cpp:39 rc.cpp:39
+msgid "1 row"
+msgstr "1 γραμμή"
+
+#. i18n: file: ui/AppearanceConfig.ui:357
+#. i18n: ectx: property (text), widget (QRadioButton, radioTwoRows)
+#: build/ui_AppearanceConfig.h:298 translations/rc.cpp:42 rc.cpp:42
+msgid "2 rows"
+msgstr "2 γραμμές"
+
+#. i18n: file: ui/AppearanceConfig.ui:370
+#. i18n: ectx: property (text), widget (QRadioButton, radioThreeRows)
+#: build/ui_AppearanceConfig.h:299 translations/rc.cpp:45 rc.cpp:45
+msgid "3 rows"
+msgstr "3 γραμμές"
+
+#. i18n: file: ui/AppearanceConfig.ui:383
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_AppearanceConfig.h:300 translations/rc.cpp:48 rc.cpp:48
+msgid "Number of rows:"
+msgstr "Αριθμός γραμμών:"
+
+#. i18n: file: ui/AppearanceConfig.ui:405
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_AppearanceConfig.h:301 translations/rc.cpp:51 rc.cpp:51
+msgid "Background"
+msgstr "Φόντο"
+
+#. i18n: file: ui/AppearanceConfig.ui:419
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:304 translations/rc.cpp:54 rc.cpp:54
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#. i18n: file: ui/AppearanceConfig.ui:424
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:305 translations/rc.cpp:57 rc.cpp:57
+msgid "Standard"
+msgstr "Τυπικό"
+
+#. i18n: file: ui/AppearanceConfig.ui:429
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:306 translations/rc.cpp:60 rc.cpp:60
+msgid "Translucent"
+msgstr "Ημιδιαφανές"
+
+#. i18n: file: ui/AppearanceConfig.ui:434
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:307 translations/rc.cpp:63 rc.cpp:63
+msgid "None"
+msgstr "Κανένα"
+
+#. i18n: file: ui/AppearanceConfig.ui:291
+#. i18n: ectx: attribute (title), widget (QWidget, tabPage2)
+#: build/ui_AppearanceConfig.h:309 translations/rc.cpp:30 rc.cpp:30
+msgid "Misc"
+msgstr "Διάφορα"
+
+#: plasma-eyasdp.cpp:177
+msgid "&Shutdown"
+msgstr "&Τερματισμός"
+
+#: plasma-eyasdp.cpp:189
+msgid "&Reboot"
+msgstr "&Επανεκκίνηση"
+
+#: plasma-eyasdp.cpp:201
+msgid "&Suspend"
+msgstr "&Αναστολή"
+
+#: plasma-eyasdp.cpp:213
+msgid "&Logout"
+msgstr "&Αποσύνδεση"
+
+#: plasma-eyasdp.cpp:226
+msgid "&Hibernate"
+msgstr "&Νάρκη"
+
+#: plasma-eyasdp.cpp:238
+msgid "&Turn off screen"
+msgstr "&Κλείσιμο οθόνης"
+
+#: plasma-eyasdp.cpp:250
+msgid "&Lock screen"
+msgstr "&Κλείδωμα οθόνης"
+
+#: plasma-eyasdp.cpp:262
+msgid "&Switch user"
+msgstr "&Εναλλαγή χρήστη"
+
+#: plasma-eyasdp.cpp:330
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: plasma-eyasdp.cpp:415 plasma-eyasdp.cpp:431 plasma-eyasdp.cpp:447
+#: plasma-eyasdp.cpp:454 plasma-eyasdp.cpp:461
+msgid "The operation has failed!"
+msgstr "Η ενέργεια απέτυχε!"
+
+#: plasma-eyasdp.cpp:421
+msgid "Do you want to sleep (suspend to RAM) the system now?"
+msgstr "Επιθυμείτε την κοίμηση (αναστολή στη μνήμη) του συστήματος τώρα;"
+
+#: plasma-eyasdp.cpp:422
+msgid "Suspend confirmation"
+msgstr "Επιβεβαίωση αναστολής"
+
+#: plasma-eyasdp.cpp:437
+msgid "Do you want to hibernate (suspend to disk) the system now?"
+msgstr "Επιθυμείτε τη νάρκωση (αναστολή στο δίσκο) του συστήματος τώρα;"
+
+#: plasma-eyasdp.cpp:438
+msgid "Hibernate confirmation"
+msgstr "Επιβεβαίωση νάρκωσης"
+
+#: plasma-eyasdp.cpp:570
+msgid ""
+"eYaSDP is a plasmoid that allows to set a number of system buttons in your "
+"panel or desktop for comfortable and quick access"
+msgstr ""
+"Το eYaSDP είναι ένα plasmoid που επιτρέπει τον ορισμό ενός αριθμού κουμπιών "
+"συστήματος στον πίνακα ή την επιφάνεια εργασίας για εύκολη και γρήγορη "
+"πρόσβαση"
+
+#: plasma-eyasdp.cpp:572
+msgid "Copyright (c) 2011 - Carlos López Sánchez"
+msgstr "Πνευματικά δικαιώματα (c) 2011 - Carlos López Sánchez"
+
+#: plasma-eyasdp.cpp:574
+msgid "Main developer"
+msgstr "Κύριος προγραμματιστής"
+
+#: plasma-eyasdp.cpp:576
+msgid "Ophys"
+msgstr "Ophys"
+
+#: plasma-eyasdp.cpp:576
+msgid "Original developer"
+msgstr "Αρχικός προγραμματιστής"
+
+#: plasma-eyasdp.cpp:578
+msgid "Nils Görs"
+msgstr "Nils Görs"
+
+#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580 plasma-eyasdp.cpp:582
+#: plasma-eyasdp.cpp:584
+msgid "Translator"
+msgstr "Μεταφραστής"
+
+#: plasma-eyasdp.cpp:580
+msgid "Dimitrios Glentadakis"
+msgstr "Δημήτριος Γλενταδάκης"
+
+#: plasma-eyasdp.cpp:582
+msgid "Bribanick Dominique"
+msgstr "Bribanick Dominique"
+
+#: plasma-eyasdp.cpp:584
+msgid "Davide Mora"
+msgstr "Davide Mora"
+
+#: plasma-eyasdp.cpp:585
+msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
+msgstr ""
+"eYaSDP είναι το βελτιωμένο (Enhanced) yaSDP (Yet Another Shut Down Plasmoid)"
+
+#: plasma-eyasdp.cpp:587
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: translations/rc.cpp:64 rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your name"
+msgstr "Δημήτριος Γλενταδάκης"
+
+#: translations/rc.cpp:65 rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your email"
+msgstr "dglent@gmail.com"
+
+#: translations/rc.cpp:66 rc.cpp:66
+msgctxt "HOMEPAGE OF TRANSLATORS"
+msgid "Your homepage"
+msgstr "http://www.kde-gr.org/"
+
