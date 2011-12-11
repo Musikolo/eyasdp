@@ -28,7 +28,7 @@ class QSizeF;
 namespace General {
 	static const char* APP_UI_NAME  	  = "eYaSDP";
 	static const uchar APP_VERSION_MAJOR  =  0;
-	static const uchar APP_VERSION_MINOR  =  8;
+	static const uchar APP_VERSION_MINOR  =  9;
 	static const uchar APP_VERSION_BUGFIX =  0;
 	static const QString APP_VERSION	  = QString( QString( "%1.%2.%3" ).arg( APP_VERSION_MAJOR ).arg( APP_VERSION_MINOR ).arg( APP_VERSION_BUGFIX ) );
 	static const char* APP_HOMEPAGE 	  = "http://kde-apps.org/content/show.php?content=146530";
