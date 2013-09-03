@@ -1,4 +1,10 @@
 ----------------------
+2013-09-03 - v.1.0.0
+----------------------
+- Fixed incompatibilities with Qt 4.8 / KDE 4.11
+- Improved way of invoking DBus objects
+
+----------------------
 2011-12-12 - v.0.9.0
 ----------------------
 - Added Greek translation (thanks to Dimitrios Glentadakis)
