@@ -409,11 +409,10 @@ void PlasmaEYasdp::onLogout() {
 								 KWorkSpace::ShutdownModeInteractive);
 }
 
-void PlasmaEYasdp::onSwitchUser() {   
-	const int result = system("qdbus --session org.kde.screensaver /App org.kde.krunner.App.switchUser");
-	if( result != 0 ) {
-		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
-	}
+void PlasmaEYasdp::onSwitchUser() {
+	QDBusInterface dbus( "org.kde.krunner", "/App", "org.kde.krunner.App" );
+	dbus.call( "switchUser" );
+	checkDBusError( dbus );
 }
 
 void PlasmaEYasdp::onSuspend() {
@@ -426,13 +425,12 @@ void PlasmaEYasdp::onSuspend() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	const int result = system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend");
-	if( result != 0 ) {
-	KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
-	}
+	QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
+	dbus.call( "Suspend" );
+	checkDBusError( dbus );
 }
 
-void PlasmaEYasdp::onHibernate() {  
+void PlasmaEYasdp::onHibernate() {
 	if( askConfirmation ) {
 		if( KMessageBox::questionYesNo( NULL, i18n( "Do you want to hibernate (suspend to disk) the system now?" ), 
 										i18n( "Hibernate confirmation") ) == KMessageBox::No ) {
@@ -442,25 +440,29 @@ void PlasmaEYasdp::onHibernate() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	const int result = system("qdbus --system org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Hibernate");
-	if( result != 0 ) {
-		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
-	}
+	QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
+	dbus.call( "Hibernate" );
+	checkDBusError( dbus );
 }  
 
-void PlasmaEYasdp::onTurnOffScreen() {   
+void PlasmaEYasdp::onTurnOffScreen() {
 	const int result = system("xset dpms force off");
 	if( result != 0 ) {
 		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
 	}
 }
 
-void PlasmaEYasdp::onLockScreen() {  
-   const int result = system("qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock");
-	if( result != 0 ) {
-		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) );
-	}
+void PlasmaEYasdp::onLockScreen() {
+	QDBusInterface dbus( "org.freedesktop.ScreenSaver", "/ScreenSaver" );
+	dbus.call( "Lock" );
+	checkDBusError( dbus );
 }  
+
+void PlasmaEYasdp::checkDBusError(const QDBusInterface& dbus) {
+	if( dbus.lastError().type() != QDBusError::NoError ) {
+		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) + " " + dbus.lastError().message() );
+	}
+}
 
 void PlasmaEYasdp::onBackgroundChanged(const int& background) {
 	switch( background )  {

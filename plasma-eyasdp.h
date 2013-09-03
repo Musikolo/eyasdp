@@ -21,14 +21,15 @@
 #include <Plasma/Applet>
 #include <plasma/widgets/iconwidget.h>
 #include <QGraphicsGridLayout>
+#include <QtDBus/QDBusInterface>
 #include "ui_AppearanceConfig.h"
  
 class QSizeF;
 
 namespace General {
 	static const char* APP_UI_NAME  	  = "eYaSDP";
-	static const uchar APP_VERSION_MAJOR  =  0;
-	static const uchar APP_VERSION_MINOR  =  9;
+	static const uchar APP_VERSION_MAJOR  =  1;
+	static const uchar APP_VERSION_MINOR  =  0;
 	static const uchar APP_VERSION_BUGFIX =  0;
 	static const QString APP_VERSION	  = QString( QString( "%1.%2.%3" ).arg( APP_VERSION_MAJOR ).arg( APP_VERSION_MINOR ).arg( APP_VERSION_BUGFIX ) );
 	static const char* APP_HOMEPAGE 	  = "http://kde-apps.org/content/show.php?content=146530";
@@ -73,6 +74,7 @@ private:
 	void readConfig();
 	void saveConfig();
 	void createAboutMenu();
+	void checkDBusError(const QDBusInterface& dbus);
 
 protected:
 	void createConfigurationInterface(KConfigDialog *parent);
