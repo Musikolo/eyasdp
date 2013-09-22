@@ -1,0 +1,272 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Alex <alexey.kolesnik1@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-29 00:06+0100\n"
+"PO-Revision-Date: 2013-09-03 22:11+0000\n"
+"Last-Translator: Alex <alexey.kolesnik1@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: file: ui/AppearanceConfig.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: build/ui_AppearanceConfig.h:280 translations/rc.cpp:6 rc.cpp:6
+msgid "Shut-down"
+msgstr "Завершить работу"
+
+#. i18n: file: ui/AppearanceConfig.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
+#: build/ui_AppearanceConfig.h:281 translations/rc.cpp:9 rc.cpp:9
+msgid "Reboot"
+msgstr "Перезагрузка"
+
+#. i18n: file: ui/AppearanceConfig.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
+#: build/ui_AppearanceConfig.h:282 translations/rc.cpp:12 rc.cpp:12
+msgid "Log-Out"
+msgstr "Выход"
+
+#. i18n: file: ui/AppearanceConfig.ui:178
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
+#: build/ui_AppearanceConfig.h:283 translations/rc.cpp:15 rc.cpp:15
+msgid "Lock screen"
+msgstr "Заблокировать экран"
+
+#. i18n: file: ui/AppearanceConfig.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
+#: build/ui_AppearanceConfig.h:284 translations/rc.cpp:18 rc.cpp:18
+msgid "Hibernate"
+msgstr "Спящий режим"
+
+#. i18n: file: ui/AppearanceConfig.ui:198
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
+#: build/ui_AppearanceConfig.h:285 translations/rc.cpp:21 rc.cpp:21
+msgid "Switch user"
+msgstr "Переключить пользователя"
+
+#. i18n: file: ui/AppearanceConfig.ui:237
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
+#: build/ui_AppearanceConfig.h:286 translations/rc.cpp:24 rc.cpp:24
+msgid "Suspend"
+msgstr "Ждущий режим"
+
+#. i18n: file: ui/AppearanceConfig.ui:266
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
+#: build/ui_AppearanceConfig.h:287 translations/rc.cpp:27 rc.cpp:27
+msgid "Turn-off screen"
+msgstr "Выключить экран"
+
+#. i18n: file: ui/AppearanceConfig.ui:57
+#. i18n: ectx: attribute (title), widget (QWidget, tabPage1)
+#: build/ui_AppearanceConfig.h:288 translations/rc.cpp:3 rc.cpp:3
+msgid "Icons"
+msgstr "Значки"
+
+#. i18n: file: ui/AppearanceConfig.ui:306
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAskConfirmation)
+#: build/ui_AppearanceConfig.h:292 translations/rc.cpp:33 rc.cpp:33
+msgid "Ask for confirmation"
+msgstr "Запрашивать подтверждение"
+
+#. i18n: file: ui/AppearanceConfig.ui:325
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxLockBeforeSuspend)
+#: build/ui_AppearanceConfig.h:296 translations/rc.cpp:36 rc.cpp:36
+msgid "Lock screen for Hibernate and Suspend"
+msgstr "Заблокировать экран при восстановлении из Спящего и Ждущего режима"
+
+#. i18n: file: ui/AppearanceConfig.ui:341
+#. i18n: ectx: property (text), widget (QRadioButton, radioOneRow)
+#: build/ui_AppearanceConfig.h:297 translations/rc.cpp:39 rc.cpp:39
+msgid "1 row"
+msgstr "1 ряд"
+
+#. i18n: file: ui/AppearanceConfig.ui:357
+#. i18n: ectx: property (text), widget (QRadioButton, radioTwoRows)
+#: build/ui_AppearanceConfig.h:298 translations/rc.cpp:42 rc.cpp:42
+msgid "2 rows"
+msgstr "2 ряда"
+
+#. i18n: file: ui/AppearanceConfig.ui:370
+#. i18n: ectx: property (text), widget (QRadioButton, radioThreeRows)
+#: build/ui_AppearanceConfig.h:299 translations/rc.cpp:45 rc.cpp:45
+msgid "3 rows"
+msgstr "3 ряда"
+
+#. i18n: file: ui/AppearanceConfig.ui:383
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_AppearanceConfig.h:300 translations/rc.cpp:48 rc.cpp:48
+msgid "Number of rows:"
+msgstr "Количество рядов:"
+
+#. i18n: file: ui/AppearanceConfig.ui:405
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_AppearanceConfig.h:301 translations/rc.cpp:51 rc.cpp:51
+msgid "Background"
+msgstr "Фон"
+
+#. i18n: file: ui/AppearanceConfig.ui:419
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:304 translations/rc.cpp:54 rc.cpp:54
+msgid "Default"
+msgstr "По умолчанию"
+
+#. i18n: file: ui/AppearanceConfig.ui:424
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:305 translations/rc.cpp:57 rc.cpp:57
+msgid "Standard"
+msgstr "Стандартный"
+
+#. i18n: file: ui/AppearanceConfig.ui:429
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:306 translations/rc.cpp:60 rc.cpp:60
+msgid "Translucent"
+msgstr "Прозрачный"
+
+#. i18n: file: ui/AppearanceConfig.ui:434
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxBackground)
+#: build/ui_AppearanceConfig.h:307 translations/rc.cpp:63 rc.cpp:63
+msgid "None"
+msgstr "Нет"
+
+#. i18n: file: ui/AppearanceConfig.ui:291
+#. i18n: ectx: attribute (title), widget (QWidget, tabPage2)
+#: build/ui_AppearanceConfig.h:309 translations/rc.cpp:30 rc.cpp:30
+msgid "Misc"
+msgstr "Разное"
+
+#: plasma-eyasdp.cpp:177
+msgid "&Shutdown"
+msgstr "&Завершение работы"
+
+#: plasma-eyasdp.cpp:189
+msgid "&Reboot"
+msgstr "&Перезагрузка"
+
+#: plasma-eyasdp.cpp:201
+msgid "&Suspend"
+msgstr "&Ждущий режим"
+
+#: plasma-eyasdp.cpp:213
+msgid "&Logout"
+msgstr "&Выход"
+
+#: plasma-eyasdp.cpp:226
+msgid "&Hibernate"
+msgstr "&Спящий режим"
+
+#: plasma-eyasdp.cpp:238
+msgid "&Turn off screen"
+msgstr "&Выключить экран"
+
+#: plasma-eyasdp.cpp:250
+msgid "&Lock screen"
+msgstr "&Заблокировать экран"
+
+#: plasma-eyasdp.cpp:262
+msgid "&Switch user"
+msgstr "&Переключить пользователя"
+
+#: plasma-eyasdp.cpp:330
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: plasma-eyasdp.cpp:415 plasma-eyasdp.cpp:431 plasma-eyasdp.cpp:447
+#: plasma-eyasdp.cpp:454 plasma-eyasdp.cpp:461
+msgid "The operation has failed!"
+msgstr "Операция закончилась неудачно!"
+
+#: plasma-eyasdp.cpp:421
+msgid "Do you want to sleep (suspend to RAM) the system now?"
+msgstr "Вы хотите приостановить (ждущий режим) систему?"
+
+#: plasma-eyasdp.cpp:422
+msgid "Suspend confirmation"
+msgstr "Подтверждение перехода в ждущий режим"
+
+#: plasma-eyasdp.cpp:437
+msgid "Do you want to hibernate (suspend to disk) the system now?"
+msgstr "Вы хотите приостановить (спящий режим) систему?"
+
+#: plasma-eyasdp.cpp:438
+msgid "Hibernate confirmation"
+msgstr "Подтверждение перехода в спящий режим"
+
+#: plasma-eyasdp.cpp:570
+msgid ""
+"eYaSDP is a plasmoid that allows to set a number of system buttons in your "
+"panel or desktop for comfortable and quick access"
+msgstr ""
+"eYaSDP это плазмоид, предоставляющий набор кнопок управления системой на "
+"вашей панели или рабочем столе для комфортного и быстрого доступа"
+
+#: plasma-eyasdp.cpp:572
+msgid "Copyright (c) 2011 - Carlos López Sánchez"
+msgstr "Copyright (c) 2011 - Carlos López Sánchez"
+
+#: plasma-eyasdp.cpp:574
+msgid "Main developer"
+msgstr "Главный разработчик"
+
+#: plasma-eyasdp.cpp:576
+msgid "Ophys"
+msgstr "Ophys"
+
+#: plasma-eyasdp.cpp:576
+msgid "Original developer"
+msgstr "Первоначальный разработчик"
+
+#: plasma-eyasdp.cpp:578
+msgid "Nils Görs"
+msgstr "Nils Görs"
+
+#: plasma-eyasdp.cpp:578 plasma-eyasdp.cpp:580 plasma-eyasdp.cpp:582
+#: plasma-eyasdp.cpp:584
+msgid "Translator"
+msgstr "Переводчик"
+
+#: plasma-eyasdp.cpp:580
+msgid "Dimitrios Glentadakis"
+msgstr "Dimitrios Glentadakis"
+
+#: plasma-eyasdp.cpp:582
+msgid "Bribanick Dominique"
+msgstr "Bribanick Dominique"
+
+#: plasma-eyasdp.cpp:584
+msgid "Davide Mora"
+msgstr "Davide Mora"
+
+#: plasma-eyasdp.cpp:585
+msgid "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)"
+msgstr "eYaSDP является расширенным yaSDP(Yet Another Shut Down Plasmoid)"
+
+#: plasma-eyasdp.cpp:587
+msgid "Help"
+msgstr "Справка"
+
+#: translations/rc.cpp:64 rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your name"
+msgstr "Oleksii Kolesnyk"
+
+#: translations/rc.cpp:65 rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your email"
+msgstr "alexey.kolesnik1@gmail.com"
+
+#: translations/rc.cpp:66 rc.cpp:66
+msgctxt "HOMEPAGE OF TRANSLATORS"
+msgid "Your homepage"
+msgstr ""
+
+
