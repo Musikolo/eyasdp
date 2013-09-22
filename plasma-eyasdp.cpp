@@ -584,6 +584,11 @@ void PlasmaEYasdp::createAboutMenu() {
 	about->addCredit( ki18n( "Bribanick Dominique" ), ki18n( "Translator" ), frEmail.toLatin1() );
 	const QString itEmail( QString( "Davide Mora" ).append( "<davide.mora" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
 	about->addCredit( ki18n( "Davide Mora" ), ki18n( "Translator" ), itEmail.toLatin1(), "http://www.davidemora.it/" );
+	const QString ruEmail( QString( "Alex Kolesnik" ).append( "<alexey.kolesnik1" ).append( "@" ).append( "gmail" ).append( ".com>" ) );
+	about->addCredit( ki18n( "Alex Kolesnik" ), ki18n( "Translator" ), ruEmail.toLatin1() );
+//  Same translator as for Russian. Commented out not add him twice to the credits section.
+// 	const QString uaEmail( ruEmail );
+// 	about->addCredit( ki18n( "Alex Kolesnik" ), ki18n( "Translator" ), uaEmail.toLatin1() );
 	about->setOtherText( ki18n( "eYaSDP stands for Enhanced yaSDP(Yet Another Shut Down Plasmoid)" ) );
 	
 	helpAction = new QAction( KIcon( "help-about" ), i18n( "Help" ), this );
