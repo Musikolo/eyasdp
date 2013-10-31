@@ -1,3 +1,5 @@
+# Contributor: Kroz
+
 EYASDP_VERSION="1.1.0"
 EAPI=5
 
