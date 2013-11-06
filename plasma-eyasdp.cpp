@@ -425,9 +425,17 @@ void PlasmaEYasdp::onSuspend() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
-	dbus.call( "Suspend" );
-	checkDBusError( dbus );
+
+	// Try preferred choice first
+	QDBusInterface dbus( "org.freedesktop.login1", "/org/freedesktop/login1", "org.freedesktop.login1.Manager", QDBusConnection::systemBus() );
+	dbus.call( "Suspend", true );
+
+	// Otherwise, try alternative choice
+	if( !isSuccessfulDbusCall( dbus ) ) {
+		QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
+		dbus.call( "Suspend" );
+		checkDBusError( dbus );
+	}
 }
 
 void PlasmaEYasdp::onHibernate() {
@@ -440,9 +448,16 @@ void PlasmaEYasdp::onHibernate() {
 	if( lockBeforeSuspend ) {
 	   onLockScreen();
 	}
-	QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
-	dbus.call( "Hibernate" );
-	checkDBusError( dbus );
+	// Try preferred choice first
+	QDBusInterface dbus( "org.freedesktop.login1", "/org/freedesktop/login1", "org.freedesktop.login1.Manager", QDBusConnection::systemBus() );
+	dbus.call( "Hibernate", true );
+
+	// Otherwise, try alternative choice
+	if( !isSuccessfulDbusCall( dbus ) ) {
+		QDBusInterface dbus( "org.freedesktop.UPower", "/org/freedesktop/UPower", "org.freedesktop.UPower", QDBusConnection::systemBus() );
+		dbus.call( "Hibernate" );
+		checkDBusError( dbus );
+	}
 }  
 
 void PlasmaEYasdp::onTurnOffScreen() {
@@ -458,8 +473,13 @@ void PlasmaEYasdp::onLockScreen() {
 	checkDBusError( dbus );
 }  
 
+bool PlasmaEYasdp::isSuccessfulDbusCall( const QDBusInterface& dbus ) {
+	return dbus.lastError().type() == QDBusError::NoError;
+}
+
+
 void PlasmaEYasdp::checkDBusError(const QDBusInterface& dbus) {
-	if( dbus.lastError().type() != QDBusError::NoError ) {
+	if( !isSuccessfulDbusCall( dbus ) ) {
 		KMessageBox::sorry( NULL,  i18n( "The operation has failed!" ) + " " + dbus.lastError().message() );
 	}
 }
