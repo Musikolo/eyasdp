@@ -1,9 +1,16 @@
 ----------------------
+2013-11-06 - v.1.2.0
+----------------------
+- Added integration with systemd-logind DBus system (suspend & hibernate)
+- Fallback to UPower DBus system when systemd-logind not available (suspend & hibernate)
+- Added Gentoo Linux ebuild installation script (thanks to Kroz)
+
+----------------------
 2013-09-22 - v.1.1.0
 ----------------------
 - Added Russian translation (thanks to Alex Kolesnik)
 - Added Ukrainian translation (thanks to Alex Kolesnik)
-- Remove some compilation warnings
+- Removed some compilation warnings
 
 ----------------------
 2013-09-03 - v.1.0.0
